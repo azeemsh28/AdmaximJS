@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="../JS/angular.min.js"></script>
+        <script src="../app/app.js"></script>
+        <link rel="stylesheet" href="../CSS/app.css">
+<!--        <script src="angular.min.js"></script>-->
+    </head>
+    <body>
+        <div ng-app="myApp" ng-controller="myCtrl"> 
+<!--            <h3 ng-repeat="e in myUrl.entity">{{e.name}}</h3>-->
+            <textarea>{{name}}</textarea>
+<!--            316054-->
+            <form>
+                Username:<br> <input type="text" ng-model="userName"><br>
+                Password:<br> <input type="password" ng-model="passWord"><br>
+                <br>
+                <button ng-click="save()">Save</button>
+            </form>
+            <br>
+            <table>
+                <thead>
+                    <tr> <th>Id</th> <th>Name</th> <th>Detail</th> <th>Type</th> <th>Status</th> <th>Code</th> </tr>
+                </thead>
+                <tbody ng-repeat="e in myUrl.entity">
+                    <tr> <td>{{e.id}}</td> <td>{{e.name}}</td> <td>{{e.detail}}</td> 
+                         <td>{{e.type}}</td> <td>{{e.status}}</td> <td>{{e.code}}</td> </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

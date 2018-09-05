@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="../JS/angular.min.js"></script>
+        <link rel="stylesheet" href="../CSS/app.css">
+    </head>
+    <body>
+        <div ng-app="myApp" ng-controller="myCtrl"> 
+            <h1>Update Book</h1>
+            <form id="bookForm">
+                <span>Book Id</span><br><input type="text" ng-model="bookId"><br>
+                <span>Book Name</span><br> <input type="text" ng-model="bookName"><br>
+                <span>Author Name</span><br> <input type="text" ng-model="authorName"><br>
+                <span>Isbn</span><br> <input type="text" ng-model="isbn"><br>
+                <span>No. Copies</span><br> <input type="text" ng-model="noCopies"><br>
+                <span>Price</span><br> <input type="text" ng-model="price"><br>
+                <button ng-click="">Save</button>
+                <button ng-click="">Reset</button>
+            </form>
+            <br>
+        </div>
+    </body>
+</html>

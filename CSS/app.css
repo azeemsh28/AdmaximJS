@@ -1,0 +1,46 @@
+table, th , td  {
+                border: 1px solid grey;
+                border-collapse: collapse;
+                padding: 5px;
+                }
+h1{
+    font-family: sans-serif;
+    margin-left: 35px;
+}
+#bookForm{
+    font-family: sans-serif;
+    margin-left: 35px;
+}
+span{
+    font-size: 20px;
+    color: darkgray;
+}
+input{
+    width: 400px;
+    height: 25px;
+    border: solid 1px darkgray;
+    border-radius: 3px;
+    margin: 10px 0px;
+    padding: 5px 20px;
+}
+button{
+    width: 220px;
+    height: 34px;
+    border: solid 1px;
+    border-radius: 3px;
+    
+}
+#headerDiv{
+    border: solid 2px black;
+    width: auto;
+    height: 50px;
+    margin: 50px 200px 50px 100px;
+}
+#btn1, #btn2{
+    margin: 5px;
+    width: 100px;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 3px;
+    
+}
